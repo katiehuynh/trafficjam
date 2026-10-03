@@ -1,6 +1,6 @@
 # Inference Gateway
 
-A **multi-tenant LLM inference gateway** — the serving layer that sits in front of GPU
+A **multi-tenant LLM inference gateway**: the serving layer that sits in front of GPU
 workers and decides who gets compute, when, and at what cost. Think a miniature
 version of what Together AI, Databricks, or Meta's inference platform teams run:
 request routing, GPU scheduling with preemption, per-tenant quotas and metering,
